@@ -55,7 +55,7 @@ int zapis(int x, int y){
 }
 
 int main(void) {
-	int x, y;
+  int x, y;
   printf("Unesite dva cela broja: ");
   scanf("%i %i", &x, &y);
   if (zapis(x, y)) printf("Uslov je ispunjen.\n");
