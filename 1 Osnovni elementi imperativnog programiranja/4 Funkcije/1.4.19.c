@@ -18,8 +18,6 @@ int srecan(int n){
 int main(){
 	unsigned n;
 	scanf("%u", &n);
-	for(unsigned i=1; i<=n; i++){
-		if(srecan(i)) printf("%u ", i);
-	}
+	for(unsigned i=1; i<=n; i++) if(srecan(i)) printf("%u ", i);
 	printf("\n");
 }
