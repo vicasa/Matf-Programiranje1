@@ -23,6 +23,7 @@ void grafikon_v(int a, int b, int c, int d){
     printf("\n");
   }
 }
+
 int main() {
   int a, b, c, d;
   printf("Unesite brojeve: ");
