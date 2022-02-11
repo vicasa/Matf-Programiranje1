@@ -11,14 +11,14 @@ unsigned max(int a, int b, int c, int d){
 void grafikon_v(int a, int b, int c, int d){
   if(a<1 || b<1 || c<1 || d<1) {printf("Greska: neispravan unos.\n"); return;}
   unsigned m=max(a, b, c, d);
-  for(unsigned i=m; i>0; i--){
-    if(i>a) printf(" ");
+  for(unsigned visina = m; visina>0; visina--){
+    if(visina > a) printf(" ");
     else printf("*");
-    if(i>b) printf(" ");
+    if(visina > b) printf(" ");
     else printf("*");
-    if(i>c) printf(" ");
+    if(visina > c) printf(" ");
     else printf("*");
-    if(i>d) printf(" ");
+    if(visina > d) printf(" ");
     else printf("*");
     printf("\n");
   }
